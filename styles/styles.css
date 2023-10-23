@@ -644,6 +644,29 @@ img {
   justify-content: flex-start;
 }
 
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  flex: 1;
+  margin: 10px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.icon i {
+  margin-right: 10px;
+}
+
+.icon span {
+  font-weight: bold;
+}
+
 /*Independed components*/
 .btn-con {
   display: flex;
