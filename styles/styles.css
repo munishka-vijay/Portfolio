@@ -76,7 +76,7 @@ section {
   transition: all 0.4s ease-in-out;
   background-color: var(--color-primary);
    /* Munishka Code */
-  padding: 0;
+  /* padding: 0; */
 }
 
 .active {
@@ -220,19 +220,20 @@ section {
 
 .about {
   width: 100%;
+  height: 100%
 }
 
 .info-about-me {
   width: 50%; /* Adjust the width to your preference */
   text-align: justify;
   float: left;
-  padding: 5px;
+  padding: 5%;
 }
 
 .gradimage {
   width: 50%; /* Adjust the width to your preference */
   float: right;
-  padding: 5px;
+  padding: 5%;
 }
 
 img {
