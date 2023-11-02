@@ -230,15 +230,16 @@ section {
 }
 
 .info-about-me {
-  width: 64%; /* Adjust the width to your preference */
+  width: 60%; /* Adjust the width to your preference */
   text-align: justify;
   float: left;
-  margin-right: 2%;
+  margin-right: 4%;
 }
 
 .gradimage {
-  width: 34%; /* Adjust the width to your preference */
+  width: 36%; /* Adjust the width to your preference */
   float: right;
+  margin-right: 4%;
 }
 
 img {
@@ -252,8 +253,8 @@ img {
   justify-content: space-between;
   padding-top: 3.5rem;
   padding-bottom: 5rem;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 
