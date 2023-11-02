@@ -257,6 +257,8 @@ img {
 
 .about-stats {
   padding-bottom: 4rem;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 .about-stats .progress-bars {
   display: grid;
@@ -337,6 +339,8 @@ img {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   padding-bottom: 3rem;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 .timeline .timeline-item {
   position: relative;
