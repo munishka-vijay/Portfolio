@@ -162,6 +162,7 @@ section {
   display: flex;
   align-items: center;
   position: relative;
+  margin-right: 0px;
 }
 .header-content .left-header .h-shape {
   transition: all 0.4s ease-in-out;
@@ -201,9 +202,11 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 5rem;
+  padding-right: 10rem;
   margin-top: -40px;
   margin-bottom: 80px;
+  margin-left: 2px;
+  
 }
 .header-content .right-header .name {
   font-size: 3rem;
