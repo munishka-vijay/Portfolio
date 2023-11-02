@@ -156,7 +156,7 @@ section {
 .header-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 .header-content .left-header {
   display: flex;
@@ -181,6 +181,7 @@ section {
   margin-left: 4rem;
   background-color: var(--color-black);
   transition: all 0.4s ease-in-out;
+  margin-top: -40px;
 }
 
 .header-content .left-header .image img {
@@ -200,8 +201,9 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 18rem;
+  padding-right: 5rem;
   margin-top: -40px;
+  margin-bottom: 80px;
 }
 .header-content .right-header .name {
   font-size: 3rem;
