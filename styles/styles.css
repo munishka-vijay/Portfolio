@@ -75,8 +75,6 @@ section {
   transform: translateY(-100%) scale(0);
   transition: all 0.4s ease-in-out;
   background-color: var(--color-primary);
-   /* Munishka Code */
-  /* padding: 0; */
 }
 
 .active {
@@ -216,22 +214,21 @@ section {
 }
 
 /*About*/
-
-
+/* 
 .about {
   width: 100%;
   height: 100%
 }
 
 .info-about-me {
-  width: 50%; /* Adjust the width to your preference */
+  width: 50%; 
   text-align: justify;
   float: left;
   padding: 5%;
 }
 
 .gradimage {
-  width: 50%; /* Adjust the width to your preference */
+  width: 50%; 
   float: right;
   padding: 5%;
 }
@@ -304,7 +301,41 @@ img {
 .about-container .left-about h4 {
   font-size: 2rem;
   text-transform: uppercase;
+} */
+
+
+
+.about {
+  width: 100%;
+  padding: 2rem;
+  text-align: justify;
 }
+
+.info-about-me {
+  width: 64%; /* Adjust the width to your preference */
+  text-align: justify;
+  float: left;
+  margin-right: 2%;
+}
+
+.gradimage {
+  width: 34%; /* Adjust the width to your preference */
+  float: right;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3.5rem;
+  padding-bottom: 5rem;
+}
+
 
 .about-stats {
   padding-bottom: 4rem;
